@@ -28,7 +28,11 @@ export default function HomePage() {
       <section className="section">
         <div className="site-shell curator-grid">
           <div>
-            <h2 className="serif-heading">כל חולצה היא פיסת היסטוריה.</h2>
+            <h2 className="serif-heading">
+              אהלן, אני ניר.
+              <br />
+              אוהד כדורגל ישראלי, וחדרתי.
+            </h2>
             <div className="serif-copy">
               {siteSettings.curatorStatement.map((paragraph) => (
                 <p key={paragraph}>{paragraph}</p>
