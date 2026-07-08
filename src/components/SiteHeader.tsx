@@ -18,6 +18,7 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
   const onHero = pathname === "/" && !scrolled && !open;
+  const logoSrc = onHero ? "/reference/hadera-logo-white.png" : "/reference/hadera-logo-transparent.png";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -30,7 +31,7 @@ export function SiteHeader() {
     <header className={`site-header ${scrolled ? "is-scrolled" : ""} ${!onHero ? "is-solid" : ""} ${onHero ? "is-on-hero" : ""}`}>
       <div className="site-shell header-inner">
         <Link className="brand" href="/">
-          <Image src="/reference/hadera-logo.png" alt="לוגו הפועל חדרה" width={44} height={44} />
+          <Image src={logoSrc} alt="לוגו הפועל חדרה" width={44} height={44} />
           <span>
             המוזיאון החדרתי
             <small>HADERA ARCHIVE</small>

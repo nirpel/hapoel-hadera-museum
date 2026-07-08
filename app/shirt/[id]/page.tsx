@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props) {
   const shirt = shirts.find((item) => item.id === id);
 
   return {
-    title: shirt ? `${shirt.title} | Hadera Archive` : "Hadera Archive"
+    title: shirt ? `${shirt.title} | המוזיאון החדרתי` : "המוזיאון החדרתי - אוסף חולצות הפועל חדרה"
   };
 }
 

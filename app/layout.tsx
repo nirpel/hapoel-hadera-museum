@@ -4,8 +4,13 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Hadera Kit Archive",
-  description: "ארכיון אישי ועצמאי של חולצות הפועל חדרה"
+  title: "המוזיאון החדרתי - אוסף חולצות הפועל חדרה",
+  description: "ארכיון אישי ועצמאי של חולצות הפועל חדרה",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png"
+  }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

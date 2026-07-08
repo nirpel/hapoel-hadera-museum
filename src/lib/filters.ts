@@ -12,5 +12,5 @@ export function uniqueValues(shirts: Shirt[], key: FilterKey) {
 }
 
 export function whatsappUrl(phone: string) {
-  return `https://wa.me/${phone}?text=${encodeURIComponent("שלום, יש לי חולצה או מידע לארכיון הפועל חדרה")}`;
+  return `https://wa.me/${phone}?text=${encodeURIComponent("אהלן ניר, יש לי חולצה או מידע לארכיון הפועל חדרה")}`;
 }

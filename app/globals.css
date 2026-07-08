@@ -168,10 +168,7 @@ img {
 }
 
 .brand img {
-  background: white;
-  border-radius: 2px;
   object-fit: contain;
-  padding: 2px;
 }
 
 .brand span {
