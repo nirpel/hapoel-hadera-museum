@@ -303,6 +303,40 @@ export const shirts: Shirt[] = [
     featured: true
   },
   {
+    id: "hadera-2023-24-home",
+    collection: "hapoel-hadera",
+    team: "הפועל חדרה",
+    season: "2023/24",
+    title: "חולצת בית",
+    playerName: "טוני גומז",
+    shirtNumber: "7",
+    manufacturer: "Umbro",
+    size: "M",
+    classification: "Match Worn",
+    status: "In Collection",
+    personalStory:
+      "אמנם חדרה היא עיר של שש-בש בעיניי, אבל כאן מוצגת חולצת משבצות מטורפת ביופיה, שהייתה למדי הבית של הקבוצה באותה עונה בליגת העל. אחרי שעבר בקבוצות עם שמות כמו חרס אל-חודוד וטלאאע אל-ג'ריש, גם טוני גומז ידע שעל חולצה כזאת אי אפשר לוותר. גול אחד בעונה אחת, תודה שבאת טוני.",
+    images: [{ src: "/shirts/hadera-2023-24-home-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2023-24-home-back.jpeg", label: "גב", side: "back" }],
+    featured: true
+  },
+  {
+    id: "hadera-2023-24-away",
+    collection: "hapoel-hadera",
+    team: "הפועל חדרה",
+    season: "2023/24",
+    title: "חולצת חוץ",
+    playerName: "איציק שולמייסטר",
+    shirtNumber: "17",
+    manufacturer: "Umbro",
+    size: "L",
+    classification: "Match Worn",
+    status: "In Collection",
+    personalStory:
+      "עיצוב המשבצות שהיה חזק באותה עונה, הגיע גם לחולצת החוץ. לבש אותה בגאון איציק שולמייסטר, שחקן שעבר לא מעט קבוצות בקריירה, אך את שערו הראשון בליגת העל כבש במדי הפועל חדרה. ככה זה - החולצה של חדרה מוציאה ממך משהו אחר.",
+    images: [{ src: "/shirts/hadera-2023-24-away-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2023-24-away-back.jpeg", label: "גב", side: "back" }],
+    featured: true
+  },
+  {
     id: "hadera-2023-24-fourth",
     collection: "hapoel-hadera",
     team: "הפועל חדרה",
@@ -317,6 +351,74 @@ export const shirts: Shirt[] = [
     personalStory:
       "חולצה מרגשת שלא ראתה אור במשחק רשמי באותה העונה, אך הוצאה לכבוד הקפטן שלנו - מנשה זלקה, עם דגל ישראל ו'יחד ננצח' על הגב, כאות הוקרה על שירות מילואים קרבי במקביל להיותו קפטן של קבוצה בליגת העל",
     images: [{ src: "/shirts/hadera-2023-24-fourth-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2023-24-fourth-back.jpeg", label: "גב", side: "back" }],
+    featured: true
+  },
+  {
+    id: "hadera-2024-25-home",
+    collection: "hapoel-hadera",
+    team: "הפועל חדרה",
+    season: "2024/25",
+    title: "חולצת בית",
+    playerName: "תמיר עדי",
+    shirtNumber: "23",
+    manufacturer: "Umbro",
+    size: "L",
+    classification: "Match Issue",
+    status: "In Collection",
+    personalStory:
+      "החולצה הזו מסמלת המון - היא חולצת הבית בעונה האחרונה של חדרה בליגת העל, לאחר 7 שנים מדהימות של שיכרון חושים. החולצה הרבה יותר יפה מאיך שהקבוצה שיחקה באותה עונה, שהזכירה לנו שלכל דבר טוב יש גם סוף.",
+    images: [{ src: "/shirts/hadera-2024-25-home-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2024-25-home-back.jpeg", label: "גב", side: "back" }],
+    featured: true
+  },
+  {
+    id: "hadera-2025-26-home",
+    collection: "hapoel-hadera",
+    team: "הפועל חדרה",
+    season: "2025/26",
+    title: "חולצת בית",
+    playerName: "ילי שאבו",
+    shirtNumber: "11",
+    manufacturer: "Umbro",
+    size: "L",
+    classification: "Match Worn",
+    status: "In Collection",
+    personalStory:
+      "חולצה אדומה עם דוגמא אדירה של פסיפס, מעונה פחות אומנותית בלשון המעטה. חולצה זו שימשה את הקבוצה במשחקי הבית של עונת לאומית ראשונה לאחר 7 שנות ליגת על, שבסופה המר זכינו לומר שוב שלום לליגה א'!",
+    images: [{ src: "/shirts/hadera-2025-26-home-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2025-26-home-back.jpeg", label: "גב", side: "back" }],
+    featured: true
+  },
+  {
+    id: "hadera-2025-26-away",
+    collection: "hapoel-hadera",
+    team: "הפועל חדרה",
+    season: "2025/26",
+    title: "חולצת חוץ",
+    playerName: "גיתי סופיר",
+    shirtNumber: "5",
+    manufacturer: "Umbro",
+    size: "M",
+    classification: "Match Worn",
+    status: "In Collection",
+    personalStory:
+      "חולצת החוץ מעונת הלאומית, שהיא גם עונת הירידה לליגה א'. החולצה משמרת את דפוסי הפסיפס מחולצת הבית.",
+    images: [{ src: "/shirts/hadera-2025-26-away-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2025-26-away-back.jpeg", label: "גב", side: "back" }],
+    featured: true
+  },
+  {
+    id: "hadera-2025-26-third",
+    collection: "hapoel-hadera",
+    team: "הפועל חדרה",
+    season: "2025/26",
+    title: "חולצה שלישית",
+    playerName: "גיתי סופיר",
+    shirtNumber: "5",
+    manufacturer: "Umbro",
+    size: "M",
+    classification: "Match Worn",
+    status: "In Collection",
+    personalStory:
+      "חולצה שלישית שחורה מעונה שחורה. נלבשה ע''י גיתי סופיר, קשר התקפי שהגיע אחרי עונה חווייתית בליגה האזרבייג'נית.",
+    images: [{ src: "/shirts/hadera-2025-26-third-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2025-26-third-back.jpeg", label: "גב", side: "back" }],
     featured: true
   }
 ];
