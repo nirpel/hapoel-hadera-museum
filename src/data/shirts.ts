@@ -32,6 +32,7 @@ export type Shirt = {
   status: ShirtStatus;
   description?: string;
   personalStory?: string;
+  thanks?: string;
   provenance?: string;
   images: ShirtImage[];
   featured?: boolean;
@@ -316,6 +317,7 @@ export const shirts: Shirt[] = [
     status: "In Collection",
     personalStory:
       "אמנם חדרה היא עיר של שש-בש בעיניי, אבל כאן מוצגת חולצת משבצות מטורפת ביופיה, שהייתה למדי הבית של הקבוצה באותה עונה בליגת העל. אחרי שעבר בקבוצות עם שמות כמו חרס אל-חודוד וטלאאע אל-ג'ריש, גם טוני גומז ידע שעל חולצה כזאת אי אפשר לוותר. גול אחד בעונה אחת, תודה שבאת טוני.",
+    thanks: "תודה מיוחדת לדרור בונדר",
     images: [{ src: "/shirts/hadera-2023-24-home-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2023-24-home-back.jpeg", label: "גב", side: "back" }],
     featured: true
   },
@@ -333,6 +335,7 @@ export const shirts: Shirt[] = [
     status: "In Collection",
     personalStory:
       "עיצוב המשבצות שהיה חזק באותה עונה, הגיע גם לחולצת החוץ. לבש אותה בגאון איציק שולמייסטר, שחקן שעבר לא מעט קבוצות בקריירה, אך את שערו הראשון בליגת העל כבש במדי הפועל חדרה. ככה זה - החולצה של חדרה מוציאה ממך משהו אחר.",
+    thanks: "תודה מיוחדת לדרור בונדר",
     images: [{ src: "/shirts/hadera-2023-24-away-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2023-24-away-back.jpeg", label: "גב", side: "back" }],
     featured: true
   },
@@ -354,6 +357,24 @@ export const shirts: Shirt[] = [
     featured: true
   },
   {
+    id: "hadera-2023-24-gk-away",
+    collection: "hapoel-hadera",
+    team: "הפועל חדרה",
+    season: "2023/24",
+    title: "חולצת שוער",
+    playerName: "אוהד לויטה",
+    shirtNumber: "21",
+    manufacturer: "Umbro",
+    size: "L",
+    classification: "Match Worn",
+    status: "In Collection",
+    personalStory:
+      "חולצת שוער ורודה איתה שיחק אוהד לויטה, שהגיע לחדרה אחרי מסע בקבוצות הגדולות בארץ וסיבוב בחו''ל.",
+    thanks: "תודה מיוחדת לדרור בונדר",
+    images: [{ src: "/shirts/hadera-2023-24-gk-away-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2023-24-gk-away-back.jpeg", label: "גב", side: "back" }],
+    featured: true
+  },
+  {
     id: "hadera-2024-25-home",
     collection: "hapoel-hadera",
     team: "הפועל חדרה",
@@ -367,6 +388,7 @@ export const shirts: Shirt[] = [
     status: "In Collection",
     personalStory:
       "החולצה הזו מסמלת המון - היא חולצת הבית בעונה האחרונה של חדרה בליגת העל, לאחר 7 שנים מדהימות של שיכרון חושים. החולצה הרבה יותר יפה מאיך שהקבוצה שיחקה באותה עונה, שהזכירה לנו שלכל דבר טוב יש גם סוף.",
+    thanks: "תודה מיוחדת לדרור בונדר",
     images: [{ src: "/shirts/hadera-2024-25-home-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2024-25-home-back.jpeg", label: "גב", side: "back" }],
     featured: true
   },
@@ -384,6 +406,7 @@ export const shirts: Shirt[] = [
     status: "In Collection",
     personalStory:
       "חולצה אדומה עם דוגמא אדירה של פסיפס, מעונה פחות אומנותית בלשון המעטה. חולצה זו שימשה את הקבוצה במשחקי הבית של עונת לאומית ראשונה לאחר 7 שנות ליגת על, שבסופה המר זכינו לומר שוב שלום לליגה א'!",
+    thanks: "תודה מיוחדת לדרור בונדר",
     images: [{ src: "/shirts/hadera-2025-26-home-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2025-26-home-back.jpeg", label: "גב", side: "back" }],
     featured: true
   },
@@ -401,6 +424,7 @@ export const shirts: Shirt[] = [
     status: "In Collection",
     personalStory:
       "חולצת החוץ מעונת הלאומית, שהיא גם עונת הירידה לליגה א'. החולצה משמרת את דפוסי הפסיפס מחולצת הבית.",
+    thanks: "תודה מיוחדת לדרור בונדר",
     images: [{ src: "/shirts/hadera-2025-26-away-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2025-26-away-back.jpeg", label: "גב", side: "back" }],
     featured: true
   },
@@ -418,7 +442,62 @@ export const shirts: Shirt[] = [
     status: "In Collection",
     personalStory:
       "חולצה שלישית שחורה מעונה שחורה. נלבשה ע''י גיתי סופיר, קשר התקפי שהגיע אחרי עונה חווייתית בליגה האזרבייג'נית.",
+    thanks: "תודה מיוחדת לדרור בונדר",
     images: [{ src: "/shirts/hadera-2025-26-third-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2025-26-third-back.jpeg", label: "גב", side: "back" }],
+    featured: true
+  },
+  {
+    id: "hadera-2025-26-gk-home",
+    collection: "hapoel-hadera",
+    team: "הפועל חדרה",
+    season: "2025/26",
+    title: "חולצת שוער",
+    playerName: "רובי לבקוביץ'",
+    shirtNumber: "32",
+    manufacturer: "Umbro",
+    size: "XXL",
+    classification: "Match Issue",
+    status: "In Collection",
+    personalStory:
+      "חולצת שוער ירוקה השייכת לרובי לבקוביץ' בקדנציה השנייה בהפועל חדרה, הקבוצה בה שיחק את מספר המשחקים הגדול ביותר בקריירה.",
+    thanks: "תודה מיוחדת לדרור בונדר",
+    images: [{ src: "/shirts/hadera-2025-26-gk-home-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2025-26-gk-home-back.jpeg", label: "גב", side: "back" }],
+    featured: true
+  },
+  {
+    id: "hadera-2025-26-gk-away",
+    collection: "hapoel-hadera",
+    team: "הפועל חדרה",
+    season: "2025/26",
+    title: "חולצת שוער",
+    playerName: "אופק אנטמן",
+    shirtNumber: "13",
+    manufacturer: "Umbro",
+    size: "L",
+    classification: "Match Worn",
+    status: "In Collection",
+    personalStory:
+      "חולצת שוער צהובה מעונת הלאומית. משוייכת לאופק אנטמן, שעזב באמצע העונה להפועל עכו",
+    thanks: "תודה מיוחדת לדרור בונדר",
+    images: [{ src: "/shirts/hadera-2025-26-gk-away-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2025-26-gk-away-back.jpeg", label: "גב", side: "back" }],
+    featured: true
+  },
+  {
+    id: "hadera-2025-26-gk-third",
+    collection: "hapoel-hadera",
+    team: "הפועל חדרה",
+    season: "2025/26",
+    title: "חולצת שוער",
+    playerName: "אופק אנטמן",
+    shirtNumber: "13",
+    manufacturer: "Umbro",
+    size: "L",
+    classification: "Match Worn",
+    status: "In Collection",
+    personalStory:
+      "חולצת שוער כחולה מעונת הלאומית. משוייכת לאופק אנטמן, שעזב באמצע העונה להפועל עכו",
+    thanks: "תודה מיוחדת לדרור בונדר",
+    images: [{ src: "/shirts/hadera-2025-26-gk-third-front.jpeg", label: "חזית", side: "front" }, { src: "/shirts/hadera-2025-26-gk-third-back.jpeg", label: "גב", side: "back" }],
     featured: true
   }
 ];

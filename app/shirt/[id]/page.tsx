@@ -45,7 +45,8 @@ export default async function ShirtDetailPage({ params }: Props) {
           <article>
             <div className="mono-tag">{shirt.team}</div>
             <h1 className="section-title">{shirt.title}</h1>
-            <p className="lead">{shirt.personalStory ?? shirt.description}</p>
+            <p className="lead shirt-story">{shirt.personalStory ?? shirt.description}</p>
+            {shirt.thanks ? <p className="shirt-thanks">{shirt.thanks}</p> : null}
 
             <div className="hero-actions" style={{ justifyContent: "flex-start" }}>
               <a className="primary-pill" href={whatsappUrl(siteSettings.whatsappNumber)} target="_blank" rel="noreferrer">
